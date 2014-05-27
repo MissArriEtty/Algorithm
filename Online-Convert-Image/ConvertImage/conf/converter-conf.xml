@@ -1,0 +1,112 @@
+<?xml version = "1.0"?>
+
+    <configuration>
+    
+    	<property>
+              <name>compressPos</name>
+    		  <value>D:\bufferPic\</value>
+    		  <description>the position which store compressed picture</description>
+        </property>
+        
+        <property>
+              <name>mysqlAddr</name>
+    		  <value>jdbc:mysql://10.100.216.83:3306/image</value>
+    		  <description>the ip address of the mysql.</description>
+        </property>
+
+  		<property>
+    	    <name>mysqlUserName</name>
+    		<value>root</value>
+    		<description>the user name for the mysql.</description>
+  		</property>
+
+  		<property>
+    	    <name>mysqlPasswd</name>
+    		<value>zwj1989</value>
+    		<description>the user name for the mysql.</description>
+  		</property>
+
+  		<property>
+    	    <name>mysqlDriver</name>
+    		<value>com.mysql.jdbc.Driver</value>
+    		<description>mysql driver</description>
+  		</property>
+
+  		<property>
+    	    <name>width0</name>
+    		<value>50</value>
+    		<description>first width of compressed picture</description>
+  		</property>
+  		
+  		<property>
+  			<name>width1</name>
+  			<value>100</value>
+  			<description>second width of compressed picture</description>
+  		</property>
+  		
+  		<property>
+  			<name>width2</name>
+  			<value>200</value>
+  			<description>third width of compressed picture</description>
+  		</property>
+  		
+  		<property>
+  			<name>maxRunningRequest</name>
+  			<value>10</value>
+  			<description></description>
+  		</property>
+  		
+  		<property>
+  			<name>maxRestartCount</name>
+  			<value>10</value>
+  			<description></description>
+  		</property>
+  		
+  		<property>
+    		<name>heartbeatInterval</name>
+   	 		<value>5000</value>
+    		<description></description>
+  		</property>
+  		
+  		<property>
+  			<name>masterMonitorIP</name>
+  			<value>10.171.5.228</value>
+  			<description>IP address of monitor</description>
+  		</property>
+  		
+  		<property>
+  			<name>masterMonitorPort</name>
+  			<value>4000</value>
+  			<description>listening port of monitor</description>
+  		</property>
+  		
+  		<property>
+  			<name>deleteFailJob</name>
+  			<value>no</value>
+  			<description>whether delete fail job</description>
+  		</property>
+  		
+  		<property>
+    		<name>sapAddr</name>
+    		<value>http://saptest.51eyun.com</value>
+    		<description></description>
+  		</property>
+
+  		<property>
+    		<name>appToken</name>
+    		<value>19D62F2F3720FF8572CBC3FFA0A0EA3E5F8F1968383EF52E25C86A71208A878D9DB99A8DCFB76BB56FBEC08F52666A6AA5A4A4A844D9B836E752F7CDEC4A663829CA1C848480A7D8DD84EB0362BAD2E467B2A66BD3443393B268AAC54A44259BC0FA35A66C391321E3DF1EFD65DB064DACD3C37A13CBD635E78BF0F4C66A99C4</value>
+    		<description></description>
+  		</property>
+  		
+  		<property>
+    		<name>rabbitmqRequestQueueName</name>
+    		<value>watingQueue</value>
+    		<description></description>
+  		</property>
+  		
+  		<property>
+  			<name>localHost</name>
+  			<value>10.171.5.228</value>
+  			<description></description></property>
+
+</configuration>

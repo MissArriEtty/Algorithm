@@ -1,0 +1,47 @@
+<?xml version = "1.0"?>
+
+    <configuration>
+    
+        <property>
+              <name>mysqlAddr</name>
+    		  <value>jdbc:mysql://10.100.216.83:3306/image</value>
+    		  <description>the ip address of the mysql.</description>
+        </property>
+
+  		<property>
+    	    <name>mysqlUserName</name>
+    		<value>root</value>
+    		<description>the user name for the mysql.</description>
+  		</property>
+
+  		<property>
+    	    <name>mysqlPasswd</name>
+    		<value>zwj1989</value>
+    		<description>the user name for the mysql.</description>
+  		</property>
+
+  		<property>
+    	    <name>mysqlDriver</name>
+    		<value>com.mysql.jdbc.Driver</value>
+    		<description>mysql driver</description>
+  		</property>
+
+  		<property>
+    		<name>heartbeatInterval</name>
+   	 		<value>5000</value>
+    		<description></description>
+  		</property>
+  		
+  		<property>
+    		<name>pollerInterval</name>
+    		<value>5000</value>
+    		<description></description>
+  		</property>
+  		
+  		<property>
+    		<name>rabbitmqRequestQueueName</name>
+    		<value>watingQueue</value>
+    		<description></description>
+  		</property>
+
+</configuration>
